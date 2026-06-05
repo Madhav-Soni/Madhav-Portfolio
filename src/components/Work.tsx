@@ -6,7 +6,7 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 const projects = [
   {
     title: "Velora Movie Recommendation Platform",
-    category: "Personalized movie discovery with auth, onboarding, watchlist, favorites, and user preferences",
+    category: "Personalized movie discovery with auth, onboarding, watchlist, favorites, and user preferences. Implemented caching to reduce redundant requests and improve response performance.",
     tools: "React 19, Vite, Tailwind CSS, Zustand, TanStack Query (caching), Node.js, Express, MongoDB, JWT, TMDB API, rate limiting, Framer Motion, Axios",
     image: "/images/placeholder.webp",
     link: "https://velora-frontend-brown.vercel.app/",
