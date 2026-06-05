@@ -5,10 +5,11 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Wanderlust MERN Application",
-    category: "End-to-End DevSecOps CI/CD",
-    tools: "Jenkins, Docker, Kubernetes, AWS",
+    title: "Velora Movie Recommendation Platform",
+    category: "Personalized movie discovery with auth, onboarding, watchlist, favorites, and user preferences",
+    tools: "React 19, Vite, Tailwind CSS, Zustand, TanStack Query (caching), Node.js, Express, MongoDB, JWT, TMDB API, rate limiting, Framer Motion, Axios",
     image: "/images/placeholder.webp",
+    link: "https://velora-frontend-brown.vercel.app/",
   },
 ];
 
@@ -91,7 +92,11 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage
+                        image={project.image}
+                        alt={project.title}
+                        link={project.link}
+                      />
                     </div>
                   </div>
                 </div>
